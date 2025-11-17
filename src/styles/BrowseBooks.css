@@ -1,0 +1,17 @@
+.browse-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.browse input {
+    padding: 6px;
+    margin-right: 8px
+}
+
+.books-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 12px
+}
