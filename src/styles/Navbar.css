@@ -1,0 +1,5 @@
+.nav{display:flex;justify-content:space-between;align-items:center;padding:12px
+20px;background:#fff;border-bottom:1px solid #eee}
+.brand{margin:0}
+.links a{margin-left:12px}
+.links a.active{font-weight:600}
