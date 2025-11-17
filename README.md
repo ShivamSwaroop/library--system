@@ -8,17 +8,17 @@ This project is designed for beginner-friendly learning and meets the full requi
 
  Home Page
 
-Welcome message
+  Welcome message
 
-List of book categories
+  List of book categories
 
-Displays 3 popular books
+  Displays 3 popular books
 
-Navigation bar with links: Home, Browse Books, Add Book
+  Navigation bar with links: Home, Browse Books, Add Book
 
-🔍 Browse Books Page
+Browse Books Page
 
-Displays all books using dummy data
+  Displays all books using dummy data
 
   Dynamic category filtering (/books/:category)
 
@@ -42,13 +42,13 @@ Displays all books using dummy data
 
   Form validation for all required fields
 
-After submission:
+ After submission:
 
   Adds new book to the top of the list
 
   Redirects to /books/All
 
-404 Page
+ 404 Page
 
   Shows “Page Not Found”
 
@@ -58,7 +58,7 @@ After submission:
 
   Link to return Home
 
-Tech Stack
+ Tech Stack
   Technology	         Purpose
   Vite	                 Fast development environment
   React	                 Component-based UI
@@ -67,7 +67,7 @@ Tech Stack
   CSS	                 Basic styling, clean and simple
   JavaScript (ES6)	     Logic & interactivity
 
-Installation & Setup
+ Installation & Setup
    Clone the Repository
   git clone https://github.com/ShivamSwaroop/library--system.git
   cd library--system
@@ -80,3 +80,6 @@ Installation & Setup
 
    Open in Browser
     by clicking on the link
+
+ Author
+ Shivam Swaroop Dubey
