@@ -10,7 +10,7 @@ export default function Home() {
     const popular = books.slice(0, 3);
     return (
         <div className="home-container">
-            <h1>Welcome to the Online Library</h1>
+            <h1>Welcome to your One Stop Library</h1>
             <p className="lead">Find books across categories — simple and easy.</p>
             <h3>Categories</h3>
             <div className="categories">

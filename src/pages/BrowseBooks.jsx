@@ -3,6 +3,8 @@ import { useSelector } from "react-redux";
 import { useParams, useNavigate } from "react-router-dom";
 import BookCard from "../components/BookCard";
 import "../styles/BrowseBooks.css";
+
+
 export default function BrowseBooks() {
     const { category } = useParams();
     const books = useSelector((s) => s.books.items);

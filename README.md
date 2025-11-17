@@ -1,16 +1,82 @@
-# React + Vite
+ One Stop Library
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple online library web application built using Vite, React, React Router, and Redux Toolkit.
+Users can browse books, filter by category, view details, and add new books through a form with validation.
+This project is designed for beginner-friendly learning and meets the full requirements of the Module 5 React Assignment.
 
-Currently, two official plugins are available:
+ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ Home Page
 
-## React Compiler
+Welcome message
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+List of book categories
 
-## Expanding the ESLint configuration
+Displays 3 popular books
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Navigation bar with links: Home, Browse Books, Add Book
+
+🔍 Browse Books Page
+
+Displays all books using dummy data
+
+  Dynamic category filtering (/books/:category)
+
+  Search by title or author
+
+  Each book card links to its details page
+
+ Book Details Page
+
+  Dynamic URL: /book/:id
+
+  Shows book title, author, description, rating, and category
+
+  “Back to Browse” link
+
+ Add Book Page
+
+  Form to add a new book
+
+  Redux Toolkit stores the new book
+
+  Form validation for all required fields
+
+After submission:
+
+  Adds new book to the top of the list
+
+  Redirects to /books/All
+
+404 Page
+
+  Shows “Page Not Found”
+
+  Displays wrong route URL
+
+  Navbar is not shown on this page
+
+  Link to return Home
+
+Tech Stack
+  Technology	         Purpose
+  Vite	                 Fast development environment
+  React	                 Component-based UI
+  React Router DOM	     Page navigation & dynamic routes
+  Redux Toolkit	         State management for books
+  CSS	                 Basic styling, clean and simple
+  JavaScript (ES6)	     Logic & interactivity
+
+Installation & Setup
+   Clone the Repository
+  git clone https://github.com/ShivamSwaroop/library--system.git
+  cd library--system
+
+   Install Dependencies
+    npm install
+
+   Start Development Server
+    npm run dev
+
+   Open in Browser
+    by clicking on the link
